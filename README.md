@@ -153,13 +153,36 @@ following command form inside lab05 folder: ``` git add part3.c ```
 
 Write a program called `part4.c` to generate a table of prime
 numbers through trial division. You may start your code from the
-example in the book. Your program should prompt the user, read in an
-integer, and compute  and print all of the prime numbers indexed
-from `1` to `n`. 
+example in the book. 
 
 Your program should prompt the user, read in an integer, and compute
-and print all of the prime numbers indexed from `1` to `n` (i.e. the
-first prime number, `2` to the `n`th one.)
+and print all of the prime numbers from the range of integers `1` to
+`n`. Make sure your program has an array for primes large enough to
+support finding all of the primes less than `10000`.
+
+When you are done with this part make sure git tracks this file. Run
+following command form inside lab05 folder: ``` git add part4.c ```
+
+# Part 5
+
+Write a program called `part5.c` to prompt the user for a number and
+then report whether that number is prime or not. You should write a
+function `int is_prime(int k)` that does this through trial
+division and returns a `1` if the input is prime and `0` if the input
+is not prime. You may start off with the code you wrote in part 4. 
+
+Your main program should prompt the user, read in an integer, and call
+`is_prime` to test whether it is prime, and print the result.
+
+Make sure your function has an array for primes large enough to
+support testing an integer number less than `10000`. What happens when
+we keep trying to increase this array size? Try your program with
+array sizes for `primes[]` of `10000`, `100000`, `1000000`, and so
+ on. What is the largest array size you can use? Write that in a
+comment, and be sure to change your size back to a reasonable value.
+
+When you are done with this part make sure git tracks this file. Run
+following command form inside lab05 folder: ``` git add part5.c ```
 
 ## Submission procedure
 
