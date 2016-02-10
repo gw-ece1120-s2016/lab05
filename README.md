@@ -136,11 +136,15 @@ following command form inside lab05 folder: ``` git add part2.c ```
 Write a program called `part3.c` to perform base conversions. You may
 start your code from the example in the book, but you must
 implement a function to compute and return the base conversions. Write
-the function with a prototype `int convert_base(int x, int base, char
- printable_digits[64])`.
+the function with a prototype:
+```int convert_base(int x, int base, char  printable_digits[64])```
 
 Here, `x` is the number to convert, `base` is the new base, and
-`printable_digits` is the character array to store the results. 
+`printable_digits[64]` is the character array to store the
+results. This function should return a `0` if successful and a `-1` if
+an error occurred. Think carefully about what kinds of conditions
+should be considered errors: a negative input number? a negative base?
+Explain your error-checking in a comment.
 
 Your program should prompt the user, read in an integer, and compute
 and print all of the Fibonacci numbers indexed from `1` to `n`
