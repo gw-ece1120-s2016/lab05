@@ -1,8 +1,8 @@
 # Introduction
 
-*Assigned: 2016-02-03*
+*Assigned: 2016-02-10*
 
-*Due: 2016-02-12 11:59:59 PM EST*
+*Due: 2016-02-19 11:59:59 PM EST*
 
 This is the Lab 4 assignment for ECE 1120 - C Programming for ECE.
 
