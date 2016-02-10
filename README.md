@@ -63,7 +63,8 @@ implement a function to compute and return the `n`th Fibonacci
 number. Write the function with a prototype `int fibonacci(int n)`. 
 
 Your program should prompt the user, read in an integer, and compute
-and print all of the Fibonacci numbers indexed from `1` to `n`. 
+and print all of the Fibonacci numbers indexed from `0` to `n - 1`
+(i.e. the first Fibonacci number to the `n`th one.)
 
 Example output:
 ```
@@ -94,7 +95,8 @@ Next modify your code so that it uses 4 types of loops:
 Loop 1 : For-loop
 Loop 2 : While-loop
 Loop 3 : Do-while-loop
-Loop 4 : Badly-structured loop constructed with gotos
+Loop 4 : Badly-structured loop constructed with gotos and no for,
+while, or do-while constructs
 ```
 
 Your final output should show the results from all four loops.
@@ -145,10 +147,6 @@ results. This function should return a `0` if successful and a `-1` if
 an error occurred. Think carefully about what kinds of conditions
 should be considered errors: a negative input number? a negative base?
 Explain your error-checking in a comment.
-
-Your program should prompt the user, read in an integer, and compute
-and print all of the Fibonacci numbers indexed from `1` to `n`
-(i.e. the first Fibonacci number to the `n`th one.)
 
 When you are done with this part make sure git tracks this file. Run
 following command form inside lab05 folder: ``` git add part3.c ```
