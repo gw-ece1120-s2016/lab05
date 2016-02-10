@@ -4,7 +4,7 @@
 
 *Due: 2016-02-19 11:59:59 PM EST*
 
-This is the Lab 4 assignment for ECE 1120 - C Programming for ECE.
+This is the Lab 5 assignment for ECE 1120 - C Programming for ECE.
 
 The goals of this lab are to extend your experience with loops,
 functions and arrays.  You may have to read the chapter in the
