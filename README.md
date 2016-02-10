@@ -161,10 +161,6 @@ Your program should prompt the user, read in an integer, and compute
 and print all of the prime numbers indexed from `1` to `n` (i.e. the
 first prime number, `2` to the `n`th one.)
 
-You may have to modify your primes array is big enough to support very
-large numbers. 
-
-
 ## Submission procedure
 
 You have to "commit" changes you made in the assignment. In order to do that run:
