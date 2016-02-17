@@ -143,7 +143,7 @@ the function with a prototype:
 
 Here, `x` is the number to convert, `base` is the new base, and
 `printable_digits[64]` is the character array to store the
-results. This function should return a `0` if successful and a `-1` if
+results. This function should return number of digits in new base if successful and a `-1` if
 an error occurred. Think carefully about what kinds of conditions
 should be considered errors: a negative input number? a negative base?
 Explain your error-checking in a comment.
